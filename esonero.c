@@ -47,7 +47,7 @@
                 ricavo_vendita = azioni * ultimo_giorno_valore; //calcolo l'ammontare della vendita
                 guadagno = azioni * intervallo; //calcolo il guadagno
                     printf("  Affrettati! Compra all'inizio del giorno numero %d e vendi tutto alla fine del giorno numero %d.\n", primo_giorno, ultimo_giorno);
-                    printf("  Significa che devi comprare quando le azioni valgono %d, e venderle quando il loro valore è %d.\n", primo_giorno_valore, ultimo_giorno_valore);
+                    printf("  Significa comprare quando le azioni valgono ancora %d, per poi venderle quando il loro valore è %d.\n", primo_giorno_valore, ultimo_giorno_valore);
                     printf("  L'ammontare della vendita sarà %d€, mentre il guadagno %d€. Sicuro che valga la pena? ;)\n", ricavo_vendita, guadagno);
                 } 
         puts("  -------------------------------------------------------------------------------------------------\n");
